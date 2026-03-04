@@ -23,3 +23,28 @@ Ensure Python 3.8+ is installed:
 
 ```bash
 python --version
+```
+
+---
+
+## Setup & Usage
+
+Clone the repository and navigate to the project folder:
+
+```bash
+git clone https://github.com/yourusername/CIDRKnight.git
+cd CIDRKnight
+```
+
+Run the Script:
+
+```bash
+python3 CIDRKnight.py <CIDR>
+```
+
+Example:
+
+```bash
+python CIDRKnight.py 192.168.1.0/24
+```
+
