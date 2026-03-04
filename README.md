@@ -32,7 +32,7 @@ python --version
 Clone the repository and navigate to the project folder:
 
 ```bash
-git clone https://github.com/yourusername/CIDRKnight.git
+git clone https://github.com/HDI-101/CIDRKnight.git
 cd CIDRKnight
 ```
 
