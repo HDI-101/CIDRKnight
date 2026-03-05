@@ -52,12 +52,12 @@ python CIDRKnight.py 192.168.1.0/24
 Build the Docker image:
 
 ```bash
-docker build -t cidrknight .
+sudo docker build -t cidrknight .
 ```
 
 Run the script:
 
 ```bash
-docker run --rm --cap-add=NET_RAW -v $(pwd):/app cidrknight <CIDR>
+sudo docker run --rm --cap-add=NET_RAW -v $(pwd):/app cidrknight <CIDR>
 ```
 
